@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="style.css" >
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="KOn9EMgkYyB76QdhDZVDfAtqHQemogbH";analytics.SNIPPET_VERSION="4.13.2";
+    analytics.load("KOn9EMgkYyB76QdhDZVDfAtqHQemogbH");
+    }}();
+  </script>
+</head>
+<body>
+  <header>
+    <div class="topContainer">
+      <img class="logo" src="images/logo.svg" alt="blogr-landing-page">
+      <nav class="navContainer">
+        <div class="leftNav">
+          <li id="dropdown1" class="mainNavHeading"><a href="#">Product<img class="arrow-image-light" src="images/icon-arrow-light.svg"><img class="arrow-image-dark" src="images/icon-arrow-dark.svg"></a>
+            <div class="dropdown">
+              <ul id="subNav1" class="dropdownMenu" aria-labelledby="dropdown1">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>  
+              </ul>
+            </div>
+          </li>
+          <li id="dropdown2" class="mainNavHeading"><a href="#">Company<img class="arrow-image-light" src="images/icon-arrow-light.svg"><img class="arrow-image-dark" src="images/icon-arrow-dark.svg"></a>
+            <div class="dropdown">
+              <ul id="subNav2" class="dropdownMenu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="dropdown3" class="mainNavHeading"><a href="#">Connect<img class="arrow-image-light" src="images/icon-arrow-light.svg"><img class="arrow-image-dark" src="images/icon-arrow-dark.svg"></a>
+            <div class="dropdown">
+              <ul id="subNav3" class="dropdownMenu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+          </li>
+        </div>
+        <hr class="line">
+        <div class="rightNav">
+          <ul>
+            <li><button type="button" class="account-btn login"><span>Login</span></button></li>
+            <li><button type="button" class="account-btn signUp active"><span>Sign Up</span></button></li>
+          </ul>
+        </div>
+      </nav>
+      <img src="images/icon-hamburger.svg" class="hamburgerIcon">
+    </div>  
+    <div id="headerText">
+      <div class="headings">
+        <h1 class="mainHeading">A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+      </div>
+      <div class="mainHeadingButtons">
+        <button type="button" class="btn start"><span>Start for Free</span></button>
+        <button type="button" class="btn learn"><span>Learn More</span></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    
+    <section id="section1">
+      <div class="content">
+        <h2>Designed for the future</h2>
+        <article>
+          <h3>Introducing an extensible editor</h3>
+          <p class="text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.</p>
+            <h3>Robust content management</h3>
+            <p class="text">Flexible content management enables users to easily move through posts. Increase the usability of your blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </article>
+        <img src="images/illustration-editor-desktop.svg" id="illustrationEditorDesktop">
+        <img src="images/illustration-editor-mobile.svg" id="illustrationEditorMobile">
+      </div>
+    </section>
+    
+    <section id="section2">
+      <div class="infrastructure">
+        <img src="images/illustration-phones.svg">
+        <article>
+          <h2>State of the Art Infrastructure</h2>
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="section3">
+      <img src="images/illustration-laptop-desktop.svg" id="laptopDesktopImg">
+      <img src="images/illustration-laptop-mobile.svg" id="laptopMobileImg">
+      <article>
+        <h3>Free, open, simple</h3>
+        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
+        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        <h3>Powerful tooling</h3>
+        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+        capable of producing even the most complicated sites.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <img src="images/logo.svg">
+    <div class="footerNav">
+      <nav class="footerColumn">
+        <h4>Product</h4>
+        <ul>
+          <li><a href= "#">Overview</a></li>
+          <li><a href= "#">Pricing</a></li>
+          <li><a href= "#">Marketplace</a></li>
+          <li><a href= "#">Features</a></li>
+          <li><a href= "#">Integrations</a></li>
+        </ul>
+     </nav>
+      <nav class="footerColumn">
+        <h4>Company</h4>
+        <ul>
+          <li><a href= "#">About</a></li>
+          <li><a href= "#">Team</a></li>
+          <li><a href= "#">Blog</a></li>
+          <li><a href= "#">Careers</a></li>
+        </ul>
+    </nav>
+      <nav class="footerColumn">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href= "#">Contact</a></li>
+          <li><a href= "#">Newsletter</a></li>
+          <li><a href= "#">LinkedIn</a></li>
+        </ul>
+    </nav>
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Martin</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
